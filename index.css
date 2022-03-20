@@ -1,0 +1,21 @@
+div{
+    color:red 
+}
+
+button{
+   
+    background-color: blue!important;
+    /* border-radius: 5px; */
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 0px 0px; */
+    /* width: 200px; */
+    top: 178px;
+    position: relative;
+    left: 336px;
+    
+}
+
+div {
+    margin:5px;
+  }
