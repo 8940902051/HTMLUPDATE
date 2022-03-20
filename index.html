@@ -1,10 +1,39 @@
 <html>
     <head>
         <title>surya</title>
-        <style ></style>
+        <style>
+          #surya{
+            color:red;
+          }
+        </style>
+        
     </head>
+  
     <body>
         <h1>sfss</h1>
       <h1>welcome</h1>
+    <div>
+     <div>
+       
+    
+       
+       <div id="surya" >Lorem ipsum dolor sit amet.</div>
+       <div class="myscool">Deserunt perspiciatis voluptatibus soluta earum?</div>
+       <div>Et quaerat nisi ab at!</div>
+       <div>Illo amet recusandae voluptate enim.</div>
+       <div>Quibusdam aliquam porro cumque error.</div>
+       <button type="button" id="btn" onclick="myname(event)">change color</button>
+       <script>
+        function myname(event)
+        {
+ console.log(event);
+        var ss=  document.getElementById("surya").style.color="green";
+        alert(ss);
+        var sss=  document.getElementsByClassName("myscool").textContent;
+        alert(sss);
+        }
+      </script>
+     </div>
+    </div>
     </body>
     </html>
